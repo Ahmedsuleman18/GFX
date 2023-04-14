@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<header>
+  <img src="http://placeimg.com/400/400/people" alt="Drawing of Ahmed Suleman" class="profile-image">
+  <h1 class="tag name">Hello, I’m Ahmed Suleman.</h1>
+  <p class="tag location"> I am based in London.</p>
+</header>
+<head>
+  <meta charset="utf-8">
+  <title>Ahmed Suleman Profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <h1 class="name"> Ahmed j Suleman </h1>
+  <h2 class="email"> ahmedsuleman263@gmail.com</h2>
+  <h3 class="phone number"> 07718209319</h3>
+
+  <link rel="stylesheet" href="contact.css">
+  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
+</head>
+<div class="main-nav">
+  <ul class="nav">
+    <li class="name">Ahmed Suleman </li>
+    <li><a href="HTML">Home</a></li>
+    <li><a href="resume.html">Experience</a></li>
+    <li><a href="photo.html">Photos</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="contact us.html">contact us</a></li>
+  </ul>
+</div>
+
+
+  <body>
+
+    <html>
+      <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+        </script>
+      </head>
+      <body>
+        <div class="info">
+          <label for="example">Enter Text
+          </label>
+          <input id="example" type="text"
+                 name="Ntext" size="20">
+          <input id="sent" type="submit"
+                 value="Send">
+      </div>
+        <p id="para">
+        </p>
+      </body>
+      <script>
+        window.onclick = function(e)
+        {   var id =  e.target.id;
+         if (id === 'sent')
+         { var txt = document.getElementById('example').value
+           $( "#para" ).empty().append( txt );
+         }
+        }
+      </script>
+    </html>
